@@ -1,0 +1,28 @@
+-- 建表
+
+CREATE TABLE stuM( # 学生表:学号 姓名 性别 年龄 账号 手机 邮箱 余额
+ ID INT PRIMARY KEY AUTO_INCREMENT,
+ password VARCHAR(100),
+ name VARCHAR(100),
+ num INT,
+ sex char(1),
+ age INT,
+ tel INT,
+ email VARCHAR(50),
+ balance DOUBLE(10,2) default 0.00
+ )
+ CREATE TABLE busM( # 商家表:商品号 姓名 商家名 开店时间 账号 手机 邮箱 余额
+  ID INT PRIMARY KEY AUTO_INCREMENT,
+  password VARCHAR(100),
+  name VARCHAR(100),
+  num INT,
+  brand VARCHAR(100),
+  time INT,
+  tel INT,
+  email VARCHAR(50),
+  balance DOUBLE(10,2) default 0.00
+  )
+  CREATE TABLE rootM( # 管理表:账号 密码
+ -- 学生实体类
+ 无参构造器 全参构造器
+ -- Maven管理DAO工具类和JDBC的jar包

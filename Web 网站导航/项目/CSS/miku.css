@@ -1,0 +1,644 @@
+*
+{font-size: 62.5%;
+}
+.logo
+{
+position: fixed;
+margin-left: 1px;
+margin-top: 5px;
+width: 30%;
+}
+.logo_words,.logo_words_first,.logo_words_last,.last,
+{
+color: aqua;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 8rem;
+position: absolute;
+}
+.logo_words
+{
+left: 4%;
+top: 15%;
+}
+.logo_words_first
+{
+color: aquamarine;
+top: 15%;
+font-weight: 400;
+}
+.logo_words_last
+{
+top: 25%;
+}
+#body_00,#body_01,#body_02,#body_03,#body_04
+{
+background-repeat: no-repeat;
+}
+#body_00
+{
+background-image: url(../IMG/body00.jpg);
+background-size: 100%;
+}
+#body_01
+{
+background-image: url(../IMG/body01.jpg);
+background-size: 100%;
+}
+#body_02
+{
+background-image: url(../IMG/body02.jpg);
+}
+#body_03
+{
+background-image: url(../IMG/body03.jpg);
+}
+#body_k_1
+{
+background-image: url(../IMG/kong_01.jpg);
+}
+#body_k_2
+{
+background-image: url(../IMG/kong_02.jpg);
+}
+#body_k_3
+{
+background-image: url(../IMG/kong_03.jpg);
+}
+#body_k_4
+{
+background-image: url(../IMG/kong_04.png);
+}
+#body_k_g_1
+{
+background-image: url(../IMG/kong_gif_01.gif);
+}
+#body_k_g_2
+{
+background-image: url(../IMG/kong_gif_02.gif);
+}
+#body_k_g_3
+{
+background-image: url(../IMG/kong_gif_03.gif);
+}
+#body_k_g_4
+{
+background-image: url(../IMG/kong_gif_04.gif);
+}
+#body_caidan
+{
+background-image: url(../IMG/平铺_00.jpg);
+background-repeat: repeat;
+}
+#pic1,#pic2
+{
+	border-radius:1rem;
+	position: absolute;
+		left:30%;
+		top:50%
+}
+#num1,#num2
+{
+display: none;
+}
+.daohang
+{
+	position: absolute;
+	top:100%;
+	font-size:5rem;
+	width: 7%;
+}
+.daohang_gai
+{
+	position: absolute;
+	top:5%;
+	font-size:5rem;
+	width: 7%;
+}
+.tubiao,.tubiao_words
+{
+	position: relative;
+	top: 75rem;
+}
+.tubiao
+{
+left: 10%;
+width: 30%;	
+padding: 0;
+margin: 0;
+border-width: 0;
+}
+.tubiao_words,.tubiao_space
+{
+	display: inline;
+height: 5rem;
+line-height: 5rem;
+white-space: pre;
+left: 20%;
+font-size: xx-large;
+font-weight: 100;
+
+}
+.tubiao_words
+{
+border-width: medium;
+border-color: aqua;
+border-radius: 1rem;
+border-style: double;
+}
+a
+{
+	color: aqua;
+}
+a:link
+{
+text-decoration: none;
+}
+a:visited
+{
+	color: cyan;
+}
+a:hover
+{
+color: cornflowerblue;
+}
+a:active
+{
+color: chartreuse;
+}
+.shouye_neirong
+{
+position: relative;
+left: 35%;
+top: 100rem;
+}
+.hua,.anli
+{
+font-weight: 100;
+color: white;
+}
+.anli
+{
+font-size: x-large;
+}
+.shengming
+{
+position: relative;
+left: 45%;
+top: 135rem;
+padding-bottom: 5px;
+font-variant: small-caps;
+color: aqua;
+}
+.shengming_gai
+{
+position: relative;
+left: 45%;
+top: 70rem;
+padding-bottom: 5px;
+font-variant: small-caps;
+color: aqua;
+}
+.shengming_zaigai
+{
+position: relative;
+left: 45%;
+bottom: 2rem;
+padding-bottom: 5px;
+font-variant: small-caps;
+color: aqua;
+}
+body
+{
+	background-repeat: no-repeat;
+	background-size: 100%;
+overflow-x: hidden;
+}
+.google_float
+{
+position: fixed;
+left: 10%;
+top: 1rem;
+width: 35%;
+}
+.google_little
+{
+	width: 20%;
+	position: relative;
+	top:50rem
+}
+.google_gif
+{
+position: relative;
+top: 20rem;
+}
+#tensou01{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	width: 50%;
+	height: 100rem;
+}
+.000{
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+.fufu
+{
+float: right;
+clear: both;
+}
+#body_05
+{
+	background-image: url(../IMG/平铺_01.jpg);
+background-repeat: repeat;
+}
+#body_06
+{
+background-image: url(../IMG/平铺_02.jpg);
+background-repeat: repeat;
+}
+#body_04
+{
+background-image: url(../IMG/body04.jpg);
+background-size: 200%;
+}
+#body_044
+{
+background-image: url(../IMG/body04.jpg);
+}
+.return
+{
+position: fixed;
+}
+.lastbox
+{
+position: absolute;
+top: 30%;
+}
+.hua
+{
+font-size: xx-large;
+white-space: pre;
+font-family: "新宋体";
+text-indent: 6.5rem;
+}
+.xx,.x
+{
+	height: 50%;
+border: 3px solid skyblue;
+position: relative;
+top: 100rem;
+font-size: x-large;
+}
+.x
+{
+float: left;
+border-radius: 1rem;
+}
+.xx
+{
+border-radius: 10rem;
+border-left:none;
+border-top: none;
+}
+.kuang
+{
+	width: 30%;
+
+}
+.kuangkuang,.er
+{
+color: antiquewhite;
+font-weight: 700;
+}
+.yi,.san
+{
+font-weight: 400;
+}
+.gu,.ge
+{
+display: inline-block;
+font-weight: 500;
+font-size: xx-large;
+}
+.gu
+{
+color: darkturquoise;
+}
+.ge
+{
+color: crimson;
+}
+.line
+{
+border-bottom: 1px solid cyan;
+}
+.google_quanshi
+{
+font-style: oblique;
+color: ghostwhite;
+text-align: center;
+font-weight: 300;
+}
+.yahulan
+{
+position: absolute;
+top:30rem;
+left: 45%
+}
+.yahuneirong
+{
+position: absolute;
+top:30rem;
+}
+.kg
+{
+height: 5rem;
+}
+.yh1,.yh2,.yh5
+{
+color: #00FFFF;
+}
+.yh3,.yh6,.yh8
+{
+color: #7FFFD4;
+}
+.yh4,.yh7
+{
+color: #87CEEB;
+}
+.yh2,.yh5,.yh8
+{
+font-weight: 100;
+}
+.yh5,.yh3
+{
+font-size: x-large;
+}
+.yh1,.yh4,.yh6,.yh8
+{
+font-size: xx-large;
+}
+.yh2
+{
+font-size: 2rem;
+}
+.yh7
+{
+font-size: 8rem;
+}
+.yahutu1,.yahutu2
+{
+	padding-top: 110rem;
+padding-left: 10rem;
+padding-right: 5rem;
+float: right;
+width: 20%;
+}
+.niconico_float
+{
+position: fixed;
+left: 10%;
+top: 1rem;
+width: 25%;
+}
+.nicoh1
+{
+font-weight: 100;
+font-size: x-large;
+color: #00FFFF;
+position: absolute;
+top: 40rem;
+padding: 10rem;
+}
+.nicool
+{
+font-weight: 400;
+font-size: x-large;
+color: cornflowerblue;
+position: absolute;
+top: 160rem;
+padding: 10rem;
+list-style-type: circle;
+}
+.nicoul
+{
+font-weight: 400;
+color: #7FFF00;
+font-size: x-large;
+position: absolute;
+top: 185rem;
+padding: 10rem;
+list-style-type: circle;
+}
+.nicotu1,.nicotu2
+{
+position: absolute;
+top: 55rem;
+padding: 10rem;
+}
+.nicotu2
+{
+width: 50%;
+left: 40%;
+}
+.shengming_nico
+{
+position: relative;
+left: 45%;
+top: 245rem;
+padding-bottom: 5px;
+font-variant: small-caps;
+color: aqua;
+}
+.nicoh2
+{
+font-weight: 100;
+font-size: x-large;
+	color: #87CEEB;
+	position: absolute;
+	top: 90rem;
+	width: 40%;
+}
+.nicoxian
+{
+	padding: 1rem;
+}
+.form
+{
+position: absolute;
+left: 30%;
+top:30rem
+}
+.zhh4
+{
+color: #00FFFF;
+font-size: large;
+font-weight: 300;
+}
+.shengming_zh
+{
+position: relative;
+left: 45%;
+top: 90rem;
+padding-bottom: 5px;
+font-variant: small-caps;
+color: aqua;
+	}
+.yeah
+{
+color: aqua;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 2rem;
+}
+.yeahp
+{
+color: aqua;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 1rem;
+}
+.yeah2
+{
+color: aqua;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 3rem;
+}
+.yeah,.yeah2,.yeahp,.yeaht,.yeah2t,.yeahpt
+{
+	float: left
+}
+.ngsiwa
+{
+background-image: url(../IMG/bodacious.jpg);
+}
+.shengming_yarouze
+{
+position: relative;
+left: 45%;
+top: 50rem;
+padding-bottom: 5px;
+font-variant: small-caps;
+color: aqua;
+}
+.yeaht
+{
+color: #6495ED;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 2rem;
+}
+.yeahpt
+{
+color:#6495ED;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 1rem;
+}
+.yeah2t
+{
+	color: #6495ED;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 3rem;
+}
+.yashi_float
+{
+position: fixed;
+right: 10%;
+top: 1rem;
+width: 20%;
+}
+.ngsiwa2
+{
+background-image: url(../IMG/yyyz.jpg);
+}
+.ngsiwa2h
+{
+background-image: url(../IMG/zxcvbnm.png);
+background-size: 200%;
+}
+.yeahpt7
+{
+color:#7FFF00;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 1rem;
+}
+.yeah2t7
+{
+	color: #7FFF00;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 3rem;
+}
+.yeaht7
+{
+color: #7FFF00;
+letter-spacing:0.5rem;
+word-spacing: 2rem;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 2rem;
+}
+.itai
+{
+	padding:1rem;
+	margin: 10rem;
+position: relative;
+left:10%;
+word-spacing: 0.5rem;
+letter-spacing: 0.3rem;
+color: dodgerblue;
+}
+.span
+{
+display: inline-block;
+width: 15%;
+line-height: 10rem;
+height: 10rem;
+font-size: xx-large;
+border-radius:1rem;
+border-width: 1px;
+border-color: #00CED1;
+border-style: solid;
+align-self: center;
+}
+.spansp
+{
+	line-height: 10rem;
+	height: 10rem;
+	width:15%
+	border-radius:1rem;
+	border-width: 1px;
+	border-color: #00CED1;
+	border-style: solid;
+	border-left: 10rem;
+	align-self: center;
+}
+.ls
+{
+display: inline-block;
+}

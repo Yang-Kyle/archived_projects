@@ -1,0 +1,63 @@
+一，触摸屏操作
+
+	分类：
+
+	电阻式触摸屏
+	电容式触摸屏
+
+	原理：
+
+	材料的可变性（电解质）
+	材料的导电性（生物电流）
+
+	应用：
+
+
+	现代智能手机
+
+	设备文件："/dev/input/event0"
+
+	/usr/include/stdio.h
+
+	#include <stdio.h>
+
+
+	/usr/include/linux/input.h
+
+
+	//包含头文件
+	#include <linux/input.h>
+
+
+	/*
+	 * The event structure itself
+	 */
+	
+
+
+	struct input_event {
+		struct timeval time;	//时间片
+		__u16 type;             //类型（键盘事件，绝对事件，....）33~55
+		__u16 code;             //具体的事件类型（触摸事件，x轴，y轴，...）
+		__s32 value;		    //键值（按下，松开，...）
+	};
+
+	struct input_event ts;
+
+
+	触摸屏操作的步骤
+
+
+	//1，打开设备文件
+	int ts_fd = open();
+	//2，获取设备信息
+
+	read(ts_fd, &ts, sizeof(ts));
+
+	//3，关闭设备文件
+
+	
+
+
+
+
